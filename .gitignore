@@ -2,3 +2,13 @@ _gitignore/
 _storage/
 My Timeline
 .DS_Store
+.bin/
+__pycache__
+
+# Claude Code Flow
+claude-flow
+CLAUDE.md
+.roomodes
+.claude/
+.roo/
+memory/

@@ -1,0 +1,316 @@
+{
+  "theme_taxonomy": {
+    "version": "1.0",
+    "description": "Hierarchical theme taxonomy for timeline item classification",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Work & Career",
+        "description": "Professional activities, career development, and work-related events",
+        "color": "#1E88E5",
+        "icon": "briefcase",
+        "keywords": ["work", "job", "career", "professional", "office", "meeting", "project"],
+        "children": [
+          {
+            "id": 101,
+            "name": "Meetings & Calls",
+            "keywords": ["meeting", "call", "conference", "standup", "sync", "discussion"]
+          },
+          {
+            "id": 102,
+            "name": "Projects & Tasks",
+            "keywords": ["project", "task", "deadline", "milestone", "delivery", "sprint"]
+          },
+          {
+            "id": 103,
+            "name": "Professional Development",
+            "keywords": ["training", "course", "certification", "skill", "learning", "workshop"]
+          },
+          {
+            "id": 104,
+            "name": "Networking",
+            "keywords": ["network", "conference", "meetup", "connection", "introduction"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Personal & Family",
+        "description": "Personal life events, family activities, and relationships",
+        "color": "#E91E63",
+        "icon": "heart",
+        "keywords": ["family", "personal", "home", "relationship", "friend", "love"],
+        "children": [
+          {
+            "id": 201,
+            "name": "Family Events",
+            "keywords": ["family", "birthday", "anniversary", "reunion", "holiday", "celebration"]
+          },
+          {
+            "id": 202,
+            "name": "Social Activities",
+            "keywords": ["friend", "party", "gathering", "social", "hangout", "dinner"]
+          },
+          {
+            "id": 203,
+            "name": "Relationships",
+            "keywords": ["date", "relationship", "partner", "spouse", "romantic", "wedding"]
+          },
+          {
+            "id": 204,
+            "name": "Home & Domestic",
+            "keywords": ["home", "house", "chore", "maintenance", "cleaning", "organizing"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Health & Wellness",
+        "description": "Physical and mental health, medical appointments, fitness activities",
+        "color": "#43A047",
+        "icon": "heart-pulse",
+        "keywords": ["health", "medical", "doctor", "fitness", "exercise", "wellness"],
+        "children": [
+          {
+            "id": 301,
+            "name": "Medical & Healthcare",
+            "keywords": ["doctor", "appointment", "medical", "hospital", "checkup", "prescription"]
+          },
+          {
+            "id": 302,
+            "name": "Fitness & Exercise",
+            "keywords": ["gym", "workout", "exercise", "run", "yoga", "sport", "fitness"]
+          },
+          {
+            "id": 303,
+            "name": "Mental Health",
+            "keywords": ["therapy", "meditation", "mindfulness", "mental", "stress", "counseling"]
+          },
+          {
+            "id": 304,
+            "name": "Nutrition & Diet",
+            "keywords": ["diet", "nutrition", "meal", "healthy", "cooking", "recipe"]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Travel & Transportation",
+        "description": "Trips, vacations, commutes, and transportation-related activities",
+        "color": "#FF6F00",
+        "icon": "airplane",
+        "keywords": ["travel", "trip", "vacation", "flight", "drive", "commute", "transport"],
+        "children": [
+          {
+            "id": 401,
+            "name": "Vacations & Trips",
+            "keywords": ["vacation", "holiday", "trip", "tourism", "sightseeing", "adventure"]
+          },
+          {
+            "id": 402,
+            "name": "Daily Commute",
+            "keywords": ["commute", "drive", "transit", "traffic", "parking", "transportation"]
+          },
+          {
+            "id": 403,
+            "name": "Flights & Long Distance",
+            "keywords": ["flight", "airport", "plane", "train", "bus", "travel"]
+          },
+          {
+            "id": 404,
+            "name": "Local Transportation",
+            "keywords": ["uber", "taxi", "subway", "bike", "walk", "local"]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Finance & Shopping",
+        "description": "Financial transactions, shopping, investments, and money management",
+        "color": "#00897B",
+        "icon": "dollar-sign",
+        "keywords": ["money", "finance", "payment", "shopping", "purchase", "investment"],
+        "children": [
+          {
+            "id": 501,
+            "name": "Income & Earnings",
+            "keywords": ["salary", "payment", "income", "paycheck", "bonus", "revenue"]
+          },
+          {
+            "id": 502,
+            "name": "Shopping & Purchases",
+            "keywords": ["shopping", "purchase", "buy", "order", "store", "online"]
+          },
+          {
+            "id": 503,
+            "name": "Bills & Expenses",
+            "keywords": ["bill", "payment", "expense", "rent", "utility", "subscription"]
+          },
+          {
+            "id": 504,
+            "name": "Investments & Savings",
+            "keywords": ["investment", "savings", "stock", "retirement", "portfolio", "crypto"]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Education & Learning",
+        "description": "Formal education, self-learning, courses, and skill development",
+        "color": "#5E35B1",
+        "icon": "graduation-cap",
+        "keywords": ["education", "learning", "study", "course", "school", "university"],
+        "children": [
+          {
+            "id": 601,
+            "name": "Formal Education",
+            "keywords": ["school", "university", "college", "degree", "class", "lecture"]
+          },
+          {
+            "id": 602,
+            "name": "Online Learning",
+            "keywords": ["online course", "MOOC", "tutorial", "webinar", "e-learning"]
+          },
+          {
+            "id": 603,
+            "name": "Research & Study",
+            "keywords": ["research", "study", "homework", "assignment", "thesis", "paper"]
+          },
+          {
+            "id": 604,
+            "name": "Skill Development",
+            "keywords": ["skill", "practice", "hobby", "craft", "language", "instrument"]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Entertainment & Media",
+        "description": "Movies, music, games, books, and other entertainment activities",
+        "color": "#E53935",
+        "icon": "tv",
+        "keywords": ["entertainment", "movie", "music", "game", "book", "media", "fun"],
+        "children": [
+          {
+            "id": 701,
+            "name": "Movies & TV",
+            "keywords": ["movie", "film", "tv", "series", "netflix", "streaming", "cinema"]
+          },
+          {
+            "id": 702,
+            "name": "Music & Concerts",
+            "keywords": ["music", "concert", "album", "playlist", "spotify", "live"]
+          },
+          {
+            "id": 703,
+            "name": "Gaming",
+            "keywords": ["game", "gaming", "video game", "play", "console", "pc game"]
+          },
+          {
+            "id": 704,
+            "name": "Reading & Literature",
+            "keywords": ["book", "reading", "novel", "article", "blog", "magazine"]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Technology & Digital",
+        "description": "Technology usage, digital activities, and online interactions",
+        "color": "#757575",
+        "icon": "laptop",
+        "keywords": ["technology", "digital", "computer", "internet", "app", "software"],
+        "children": [
+          {
+            "id": 801,
+            "name": "Software & Apps",
+            "keywords": ["app", "software", "application", "tool", "platform", "service"]
+          },
+          {
+            "id": 802,
+            "name": "Social Media",
+            "keywords": ["social media", "facebook", "twitter", "instagram", "linkedin", "post"]
+          },
+          {
+            "id": 803,
+            "name": "Digital Communication",
+            "keywords": ["email", "message", "chat", "video call", "slack", "whatsapp"]
+          },
+          {
+            "id": 804,
+            "name": "Tech Projects",
+            "keywords": ["coding", "programming", "development", "github", "deploy", "debug"]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Life Events & Milestones",
+        "description": "Major life events, achievements, and significant milestones",
+        "color": "#FFB300",
+        "icon": "star",
+        "keywords": ["milestone", "achievement", "celebration", "event", "special", "important"],
+        "children": [
+          {
+            "id": 901,
+            "name": "Personal Achievements",
+            "keywords": ["achievement", "goal", "success", "accomplishment", "win", "award"]
+          },
+          {
+            "id": 902,
+            "name": "Life Transitions",
+            "keywords": ["move", "new job", "graduation", "retirement", "marriage", "birth"]
+          },
+          {
+            "id": 903,
+            "name": "Celebrations",
+            "keywords": ["celebration", "party", "anniversary", "birthday", "holiday", "festival"]
+          },
+          {
+            "id": 904,
+            "name": "Challenges & Growth",
+            "keywords": ["challenge", "difficulty", "growth", "learning experience", "obstacle"]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Community & Society",
+        "description": "Community involvement, volunteering, and social causes",
+        "color": "#00ACC1",
+        "icon": "users",
+        "keywords": ["community", "volunteer", "social", "cause", "charity", "civic"],
+        "children": [
+          {
+            "id": 1001,
+            "name": "Volunteering",
+            "keywords": ["volunteer", "help", "charity", "nonprofit", "service", "giving"]
+          },
+          {
+            "id": 1002,
+            "name": "Community Events",
+            "keywords": ["community", "local", "neighborhood", "town", "event", "gathering"]
+          },
+          {
+            "id": 1003,
+            "name": "Social Causes",
+            "keywords": ["cause", "activism", "environment", "social justice", "campaign"]
+          },
+          {
+            "id": 1004,
+            "name": "Religious & Spiritual",
+            "keywords": ["church", "temple", "prayer", "spiritual", "religious", "faith"]
+          }
+        ]
+      }
+    ]
+  },
+  "processing_hints": {
+    "multi_theme_assignment": true,
+    "confidence_threshold": 0.6,
+    "max_themes_per_item": 5,
+    "use_parent_theme_if_unsure": true,
+    "keyword_matching_weight": 0.3,
+    "context_analysis_weight": 0.7
+  }
+}
